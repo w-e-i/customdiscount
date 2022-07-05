@@ -14,7 +14,7 @@ import applyQrCodeApiEndpoints from "./middleware/qr-code-api.js";
 import { QRCodesDB } from "./qr-codes-db.js";
 import applyQrCodePublicEndpoints from "./middleware/qr-code-public.js";
 
-
+console.log(process.env)
 
 const USE_ONLINE_TOKENS = true;
 const TOP_LEVEL_OAUTH_COOKIE = "shopify_top_level_oauth";
